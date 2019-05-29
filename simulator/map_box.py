@@ -2,7 +2,6 @@ import random
 import time
 import json
 
-import matplotlib.pyplot as plt
 from preprocess import PREPROCESS
 from generator import GENERATOR
 from sa import SA
