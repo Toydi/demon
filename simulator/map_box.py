@@ -841,11 +841,11 @@ def multiroute2(point_file,line_file,cluster_num):
 #         plt.savefig("case2/" + str(cluster_num) + "/" + str(j + 1) + ".jpg")
 
 def plan_route_handler_test(event,context):
-    start_input = int(event['data']['start_input'])
-    end_input_splits = event['data']['end_input'].split(',')
-    end_input = [int(i) for i in end_input_splits]
-    map_height = int(event['data']['map_height'])
-    num_of_u = int(event['data']['num_of_u'])
+    # start_input = int(event['data']['start_input'])
+    # end_input_splits = event['data']['end_input'].split(',')
+    # end_input = [int(i) for i in end_input_splits]
+    # map_height = int(event['data']['map_height'])
+    # num_of_u = int(event['data']['num_of_u'])
     return event['data']
 
 def plan_route_handler(event,context):
