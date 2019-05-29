@@ -36,7 +36,7 @@ class Example(QWidget):
 
 
 class UVA(QWidget):
-    def __init__(self, locations, par, pen=QPen(Qt.black, 2, Qt.SolidLine)):
+    def __init__(self, locations, par, pen=QPen(Qt.black, 5, Qt.SolidLine)):
         super(QWidget, self).__init__()
         self.qp = QPainter()
         self.pen = pen
@@ -52,12 +52,13 @@ class UVA(QWidget):
         self.points = []
 
         self.uva = QLabel(self)
-        self.uva.setPixmap(QPixmap("./source/uva_icon-black.png").scaled(16, 16, Qt.KeepAspectRatio))
+        self.uva.setPixmap(QPixmap("./source/uva_icon-black.png").scaled(20, 20, Qt.KeepAspectRatio))
 
         self.anim = QPropertyAnimation(self.uva, b"pos")
 
         self.init_path()
         self.init_animation()
+        self.resize(self.par.width(), self.par.height())
 
     def update_locations(self, locations):
         self.rw = locations[0][0]
@@ -70,9 +71,10 @@ class UVA(QWidget):
         self.init_path()
         self.init_animation()
 
-    def resize(self, a0: QSize):
+    def resizeEvent(self, a0: QSize):
         self.w = self.par.width()
         self.h = self.par.height()
+        self.resize(self.w, self.h)
 
     def init_path(self):
         self.w = self.par.width()

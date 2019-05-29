@@ -69,7 +69,7 @@ class EndButton(QPushButton):
 class PassButton(QPushButton):
     def __init__(self, message_box, map_box):
         super().__init__()
-        self.setText("增加经过点")
+        self.setText("设置送货地点")
         self.setDefault(False)
         self.map_path = ""
         self.clicked.connect(self.on_click)
@@ -115,7 +115,7 @@ class RunButton(QPushButton):
 class StartButton(QPushButton):
     def __init__(self, message_box, map_box):
         super().__init__()
-        self.setText("设置起点")
+        self.setText("设置发货地点")
         self.setDefault(False)
         self.map_path = ""
         self.clicked.connect(self.on_click)

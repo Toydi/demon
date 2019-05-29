@@ -15,7 +15,7 @@ class MapSlider(QWidget):
 
         self.slider = QSlider(Qt.Horizontal, self)
         self.slider.setRange(1, 5)
-        self.slider.setValue(5)
+        self.slider.setValue(1)
         self.slider.valueChanged.connect(lambda: self.on_change_func(self.slider))
 
         self.label = QLabel('map_height', self)
