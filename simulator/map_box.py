@@ -855,7 +855,9 @@ def plan_route_handler(event,context):
     map_height = int(event['data']['map_height'])
     num_of_u = int(event['data']['uva_num'])
     res = plan_route(start_input, end_input, map_height, num_of_u)
-    return ",".join(res)
+    data = ",".join(res)
+    print(data)
+    return data
     
 def plan_route(start_input,end_input,map_height,num_of_u):
     if map_height == 1:
