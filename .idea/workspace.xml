@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fff7bea7-fb0f-4b1a-a961-8d2b8c349ef5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/simulator/map_box.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulator/map_box.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simulator/raw_point.txt" beforeDir="false" afterPath="$PROJECT_DIR$/simulator/raw_point.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simulator/map_box.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="595" column="21" selection-start-line="595" selection-start-column="21" selection-end-line="595" selection-end-column="21" />
+            <state relative-caret-position="296">
+              <caret line="500" column="18" lean-forward="true" selection-start-line="500" selection-end-line="501" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -103,16 +104,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559122040932</updated>
-      <workItem from="1559122044839" duration="245000" />
+      <workItem from="1559122044839" duration="595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245000" />
+    <option name="totallyTimeSpent" value="595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
@@ -150,8 +150,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simulator/map_box.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="595" column="21" selection-start-line="595" selection-start-column="21" selection-end-line="595" selection-end-column="21" />
+        <state relative-caret-position="296">
+          <caret line="500" column="18" lean-forward="true" selection-start-line="500" selection-end-line="501" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>

@@ -853,8 +853,10 @@ def plan_route_handler(event,context):
     end_input_splits = event['data']['end_input'].split(',')
     end_input = [int(i) for i in end_input_splits]
     map_height = int(event['data']['map_height'])
-    num_of_u = int(event['data']['num_of_u'])
-    return plan_route(start_input, end_input, map_height, num_of_u)
+    num_of_u = int(event['data']['uva_num'])
+    res = plan_route(start_input, end_input, map_height, num_of_u)
+	return ",".join(res)
+    
 def plan_route(start_input,end_input,map_height,num_of_u):
     if map_height == 1:
         #start_input = input("start_point information: ID")
